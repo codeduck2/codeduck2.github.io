@@ -6,22 +6,60 @@
 <meta name="description" content="个人博客">
 <meta name="keywords" content="c语言,java,html,算法">
 <meta name="author" content="codeduck2">
+<style>
+body {
+    margin: 0;
+}
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 5%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+</style>
 </head>
 <body>
+<ul>
+  <li><a class="active" href="https://codeduck2.github.io/">主页</a></li>
+  <li><a href="#C1">c语言</a></li>
+  <li><a href="#C2">java基础</a></li>
+  <li><a href="#C3">html基础</a></li>
+  <li><a href="#C4">基础算法</a></li>
+  <li><a href="#C5">杂乱的笔记</a></li>
+  <li><img src="imag/1.gif" alt="莫得用的图片1" width="48" height="48"/></li>
+  <li><img src="imag/2.gif" alt="莫得用的图片2" width="48" height="48"/></li>
+  <li><img src="imag/3.gif" alt="莫得用的图片3" width="48" height="48"/></li>
+</ul>
+<div style="margin-left:5%;padding:1px 16px;height:1000px;">
 <div style="font-family:verdana;padding:20px;border-radius:10px;border:10px solid #EE872A;">
-<img src="imag/log.png" width="120" height="44"/>
+<a href="https://codeduck2.github.io/"><img src="imag/log.png" alt="codeduck2的blog" width="120" height="44"/></a>
 <h1>Welcome to your visit</h1>
 <p>codeduck2滴blog正式上线,更多功能正在学习中,欢迎前来监督学习.</p>
-<p>我的邮箱:<a href="mailto:sxc.sb@qq.com" target="_top" style="text-decoration:none;">点击发送邮件</a></p>
+<p>我的邮箱:<a href="mailto:sxc.sb@qq.com" target="_top" style="text-decoration:none;"><img src="imag/post.gif" alt="发送邮件" width="19" height="25"/></a></p>
 <hr />
 <h2>我的学习</h2>
-<p>目录</p>
-
-<p><a href="#C1">c语言</p>
-<p><a href="#C2">java基础</p>
-<p><a href="#C3">html基础</p>
-<p><a href="#C4">基础算法</p>
 <hr />
 <h3><a id="C1">c语言</h3>
 <p>暂无内容</p>
@@ -30,9 +68,22 @@
 <h3><a id="C3">html基础</h3>
 <p>暂无内容</p>
 <h3><a id="C4">基础算法</h3>
+<h4>归并排序(c语言实现)</h4>
+<iframe src="doc/gbpx.txt" style="width:450px;height:200px; background-color: #f0f8ff;"></iframe>
+<h4>二分法(c语言实现)</h4>
+<iframe src="doc/eff.txt" style="width:450px;height:200px; background-color: #f0f8ff;"></iframe>
+<h4>筛法求素数(c语言实现)</h4>
+<iframe src="doc/sfqss.txt" style="width:450px;height:200px; background-color: #f0f8ff;"></iframe>
+<a href="https://baike.baidu.com/item/%E7%AD%9B%E6%B3%95%E6%B1%82%E7%B4%A0%E6%95%B0/8670409?fr=aladdin" target="_blank">百度一下"筛法求素数"</a>
+<h4>康托展开与逆康托展开(c语言实现)</h4>
+
+<iframe src="doc/ktzk.txt" style="width:450px;height:200px; background-color: #f0f8ff;"></iframe>
+<a href="https://baike.baidu.com/item/%E5%BA%B7%E6%89%98%E5%B1%95%E5%BC%80/7968428?fr=aladdin" target="_blank">百度一下"康托展开"</a>
+<h3><a id="C5">杂乱的笔记</h3>
 <p>暂无内容</p>
-
-
+</div>
+<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+Created by codeduck2</div>
 </body>
 
 </html>
